@@ -1,0 +1,29 @@
+/* App.css */
+@import url('https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css');
+
+/* Custom styling for the todo list */
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.todo-item input[type="text"] {
+  flex: 1;
+}
+
+.todo-item button {
+  margin-left: 8px;
+}
+
+.todo-item button:disabled {
+  opacity: 0.5;
+}
+
+.edit-save-btn {
+  display: none;
+}
